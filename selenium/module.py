@@ -23,7 +23,7 @@ class Site:
             options = webdriver.ChromeOptions()
             self.driver = webdriver.Chrome(service=service, options=options)
 
-        self.driver.implicitly_wait(5)
+        self.driver.implicitly_wait(4)
         self.driver.get(address)
         self.driver.maximize_window()
         time.sleep(testdata["sleep_time"])

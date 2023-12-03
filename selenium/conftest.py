@@ -51,6 +51,7 @@ def input_description():
 def input_content():
     return '//*[@id="create-item"]/div/div/div[3]/div/label/span/textarea'
 
+
 @pytest.fixture()
 def selector_button2():
     return '//*[@id="create-item"]/div/div/div[7]/div/button'

@@ -30,7 +30,8 @@ def test_step2(site, selector_log, selector_pass,
 
 
 def test_step3(site, selector_log, selector_pass,
-               selector_button, new_post, input_title, input_description,
+               selector_button, new_post, input_title,
+               input_description,
                input_content, selector_button2, post_title):
     input1 = site.find_element("xpath", selector_log)
     input1.send_keys(testdata["login"])
