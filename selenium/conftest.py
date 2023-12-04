@@ -62,12 +62,17 @@ def post_title():
     return '//*[@id="app"]/main/div/div[1]/h1'
 
 
+@pytest.fixture()
+def post_content():
+    return '//*[@id="app"]/main/div/div[1]/div/div[3]'
+
 
 @pytest.fixture()
 def site():
     my_site = Site(testdata["address"])
     yield my_site
     my_site.close()
+
 
 
 
