@@ -1,47 +1,25 @@
-2023-12-12 22:09:12 INFO ====== WebDriver manager ======
-2023-12-12 22:09:13 INFO Get LATEST chromedriver version for google-chrome
-2023-12-12 22:09:13 INFO Get LATEST chromedriver version for google-chrome
-2023-12-12 22:09:13 INFO Driver [/Users/oksanaalhimovic/.wdm/drivers/chromedriver/mac64/120.0.6099.71/chromedriver-mac-x64/chromedriver] found in cache
-2023-12-12 22:09:21 INFO Test1 Starting
-2023-12-12 22:09:22 INFO Send test to element //*[@id="login"]/div[1]/label/input
-2023-12-12 22:09:22 INFO Send test to element //*[@id="login"]/div[2]/label/input
-2023-12-12 22:09:22 INFO Click logging button
-2023-12-12 22:09:24 INFO We find text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
-2023-12-12 22:09:24 INFO ====== WebDriver manager ======
-2023-12-12 22:09:24 INFO Get LATEST chromedriver version for google-chrome
-2023-12-12 22:09:25 INFO Get LATEST chromedriver version for google-chrome
-2023-12-12 22:09:25 INFO Driver [/Users/oksanaalhimovic/.wdm/drivers/chromedriver/mac64/120.0.6099.71/chromedriver-mac-x64/chromedriver] found in cache
-2023-12-12 22:09:28 INFO Test2 Starting
-2023-12-12 22:09:30 INFO Send humanist to element //*[@id="login"]/div[1]/label/input
-2023-12-12 22:09:30 INFO Send ec6c0fbac2 to element //*[@id="login"]/div[2]/label/input
-2023-12-12 22:09:30 INFO Click logging button
-2023-12-12 22:09:32 INFO We find text Home in field //*[@id="app"]/main/nav/a
-2023-12-12 22:09:32 INFO ====== WebDriver manager ======
-2023-12-12 22:09:33 INFO Get LATEST chromedriver version for google-chrome
-2023-12-12 22:09:33 INFO Get LATEST chromedriver version for google-chrome
-2023-12-12 22:09:33 INFO Driver [/Users/oksanaalhimovic/.wdm/drivers/chromedriver/mac64/120.0.6099.71/chromedriver-mac-x64/chromedriver] found in cache
-2023-12-12 22:09:36 INFO Test3 Starting
-2023-12-12 22:09:38 INFO Send humanist to element //*[@id="login"]/div[1]/label/input
-2023-12-12 22:09:38 INFO Send ec6c0fbac2 to element //*[@id="login"]/div[2]/label/input
-2023-12-12 22:09:39 INFO Click logging button
-2023-12-12 22:09:39 INFO Click new post button
-2023-12-12 22:09:40 INFO Send Create Post to element //*[@id="create-item"]/div/div/div[1]/div/label/input
-2023-12-12 22:09:41 INFO Send text2 to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
-2023-12-12 22:09:41 INFO Send text1 to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
-2023-12-12 22:09:41 INFO Click create post button
-2023-12-12 22:09:44 INFO We find text Create Post in field //*[@id="app"]/main/div/div[1]/h1
-2023-12-12 22:09:44 INFO We find text text2 in field //*[@id="app"]/main/div/div[1]/div/div[3]
-2023-12-12 22:09:45 INFO ====== WebDriver manager ======
-2023-12-12 22:09:45 INFO Get LATEST chromedriver version for google-chrome
-2023-12-12 22:09:46 INFO Get LATEST chromedriver version for google-chrome
-2023-12-12 22:09:46 INFO Driver [/Users/oksanaalhimovic/.wdm/drivers/chromedriver/mac64/120.0.6099.71/chromedriver-mac-x64/chromedriver] found in cache
-2023-12-12 22:09:48 INFO Test 4 start
-2023-12-12 22:09:51 INFO Send humanist to element //*[@id="login"]/div[1]/label/input
-2023-12-12 22:09:51 INFO Send ec6c0fbac2 to element //*[@id="login"]/div[2]/label/input
-2023-12-12 22:09:51 INFO Click logging button
-2023-12-12 22:09:52 INFO Click Contact button
-2023-12-12 22:09:53 INFO Send Ann to element //*[@id="contact"]/div[1]/label/input
-2023-12-12 22:09:53 INFO Send ann@ann.com to element //*[@id="contact"]/div[2]/label/input
-2023-12-12 22:09:53 INFO Send Some text to element //*[@id="contact"]/div[3]/label/span/textarea
-2023-12-12 22:09:54 INFO Click Send button
-2023-12-12 22:09:57 INFO Switch alert
+2023-12-19 02:31:18 INFO ====== WebDriver manager ======
+2023-12-19 02:31:19 INFO Get LATEST chromedriver version for google-chrome
+2023-12-19 02:31:19 INFO Get LATEST chromedriver version for google-chrome
+2023-12-19 02:31:19 INFO Driver [/Users/oksanaalhimovic/.wdm/drivers/chromedriver/mac64/120.0.6099.109/chromedriver-mac-x64/chromedriver] found in cache
+2023-12-19 02:31:29 INFO Test1 Starting
+2023-12-19 02:31:33 INFO ====== WebDriver manager ======
+2023-12-19 02:31:33 INFO Get LATEST chromedriver version for google-chrome
+2023-12-19 02:31:33 INFO Get LATEST chromedriver version for google-chrome
+2023-12-19 02:31:33 INFO Driver [/Users/oksanaalhimovic/.wdm/drivers/chromedriver/mac64/120.0.6099.109/chromedriver-mac-x64/chromedriver] found in cache
+2023-12-19 02:31:44 INFO Test2 Starting
+2023-12-19 02:31:48 INFO ====== WebDriver manager ======
+2023-12-19 02:31:48 INFO Get LATEST chromedriver version for google-chrome
+2023-12-19 02:31:48 INFO Get LATEST chromedriver version for google-chrome
+2023-12-19 02:31:48 INFO Driver [/Users/oksanaalhimovic/.wdm/drivers/chromedriver/mac64/120.0.6099.109/chromedriver-mac-x64/chromedriver] found in cache
+2023-12-19 02:31:51 INFO Test3 Starting
+2023-12-19 02:31:59 INFO ====== WebDriver manager ======
+2023-12-19 02:31:59 INFO Get LATEST chromedriver version for google-chrome
+2023-12-19 02:32:00 INFO Get LATEST chromedriver version for google-chrome
+2023-12-19 02:32:00 INFO Driver [/Users/oksanaalhimovic/.wdm/drivers/chromedriver/mac64/120.0.6099.109/chromedriver-mac-x64/chromedriver] found in cache
+2023-12-19 02:32:03 INFO Test 4 start
+2023-12-19 02:32:12 INFO Switch alert
+2023-12-19 02:32:12 INFO Form successfully submitted
+2023-12-19 02:32:13 INFO Test 5 start
+2023-12-19 02:32:14 INFO Test 6 start
+2023-12-19 02:32:16 INFO Test 7 start

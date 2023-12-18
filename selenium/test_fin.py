@@ -2,6 +2,8 @@ import time
 import yaml
 from testpage import OperationsHelper
 import logging
+from testAPI import APIHelper
+
 
 with open("testdata.yaml") as f:
     testdata = yaml.safe_load(f)
@@ -60,8 +62,31 @@ def test_step4(browser):
     assert testpage.text_alert() == 'Form successfully submitted'
 
 
+def test_api_step5(token):
+    logging.info('Test 5 start')
+    test_api = APIHelper()
+    result = test_api.get_my_post(token)
+    description_list = test_api.check_description(result)
+    assert testdata['description'] in description_list
+    assert result.status_code == 200
 
 
+def test_api_step6(token):
+    logging.info('Test 6 start')
+    test_api = APIHelper()
+    result = test_api.get_not_my_posts(token)
+    title_list = test_api.check_title(result)
+    assert (testdata['not_my_title'] in title_list and testdata['title']
+            not in title_list)
+    assert result.status_code == 200
 
+
+def test_api_step7(token, report):
+    logging.info('Test 7 start')
+    test_api = APIHelper()
+    result = test_api.get_my_post(token)
+    title_list = test_api.check_title(result)
+    assert testdata['title'] in title_list
+    assert result.status_code == 200
 
 
