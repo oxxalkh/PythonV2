@@ -4,9 +4,12 @@ browser: chrome
 sleep_time: 3
 login: humanist
 password: ec6c0fbac2
-title: Create Post
-description: text1
+title: Create new Post
+description: text description
 content: text2
 name: Ann
 email: ann@ann.com
 content_ann: Some text
+url_api: https://test-stand.gb.ru/gateway/login
+post: /api/posts
+not_my_title: Русские пельмени

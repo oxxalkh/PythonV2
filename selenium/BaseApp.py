@@ -1,3 +1,5 @@
+import logging
+
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -8,17 +10,36 @@ class BasePage:
         self.base_url = url
 
     def find_element(self, locator, time=10):
-        return (WebDriverWait(self.driver, time).until
-                (EC.presence_of_element_located(locator),
-                 message=f"Can't find element by locator"))
+        try:
+            element = (WebDriverWait(self.driver, time).until
+                       (EC.presence_of_element_located(locator),
+                        message=f"Can't find element by {locator}"))
+        except:
+            logging.exception("Find element exception")
+            element = None
+        return element
 
     def get_element_property(self, locator, property):
         element = self.find_element(locator)
-        return element.value_of_css_property(property)
+        if element:
+            return element.value_of_css_property(property)
+        else:
+            logging.exception(f'Property {property} not found in element with '
+                          f'locator {locator}')
+            return None
 
     def go_to_site(self):
-        return self.driver.get(self.base_url)
+        try:
+            start_browser = self.driver.get(self.base_url)
+        except:
+            logging.exception("Exception while open site")
+            start_browser = None
+        return start_browser
 
     def switch_to_alert(self):
-        alert_obj = self.driver.switch_to.alert
-        return alert_obj.text
+        try:
+            alert = self.driver.switch_to.alert
+            return alert.text
+        except:
+            logging.exception("Exception with alert")
+            return None
