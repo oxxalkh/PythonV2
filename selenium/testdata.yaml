@@ -1,8 +1,12 @@
-address: https://test-stand.gb.ru
+url: https://test-stand.gb.ru
 browser: chrome
+#browser: firefox
 sleep_time: 3
 login: humanist
 password: ec6c0fbac2
 title: Create Post
 description: text1
 content: text2
+name: Ann
+email: ann@ann.com
+content_ann: Some text
